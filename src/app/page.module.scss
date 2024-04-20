@@ -1,0 +1,15 @@
+.Main {
+  padding: 0 1rem;
+  .UploadContainer {
+    width: 50rem;
+    margin: 5rem auto;
+    // height: 100vh;
+    background-color: #ffffff;
+    border-radius: 1.875rem;
+    padding: 2rem 1.5rem;
+
+    @media screen and (max-width: 992px) {
+      width: 100%;
+    }
+  }
+}
