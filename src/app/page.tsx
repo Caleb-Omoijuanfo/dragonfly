@@ -35,7 +35,6 @@ export default function Home() {
                 const errorMessage = errors.upload_file?.message;
                 return (
                   <CustomFileUploadInput
-                    isShowLabel={false}
                     isShowIcon
                     ImageIcon={<FiUploadCloud />}
                     {...{ value, onChange, errors: [errorMessage] }}
